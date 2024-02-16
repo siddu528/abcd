@@ -35,5 +35,5 @@ urlpatterns = [
       path('adminlogin',views.adminlogin),
       path('adminhome',views.adminhome),
       path('adminchangepassword',views.adminchangepassword),
-      path('menu',views.menu),
+      path('index',views.index),
 ]
