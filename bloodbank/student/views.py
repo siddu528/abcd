@@ -177,5 +177,5 @@ def adminchangepassword(request):
 		else:
 			msg="newpassword and confirmnewpassword must be same"
 	return render(request,"adminchangepassword.html",{"msg":msg})
-def menu(request):		
-	return render(request,"menu.html")	
+def index(request):		
+	return render(request,"index.html")	
